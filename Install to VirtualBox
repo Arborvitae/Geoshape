@@ -1,0 +1,20 @@
+# Dependencies
+  # VirtualBox, Git Hub for Windows Git Shell
+
+# from within Git Shell
+
+  git clone https://github.com/ROGUE-JCTD/geoshape-vagrant.git
+  
+# edit Vagrantfile, change network to config.vm.network :public_network, :bridge => 'en0: Ethernet', ip: "192.168.0.38", netmask: "255.255.255.0"
+
+ vagrant up --provider=virtualbox
+ vagrant ssh
+ yum install -y nano
+ sudo su -
+ cd /etc/yum.repos.d/
+ wget  http://yum.boundlessps.com/geoshape.repo
+ yum -y install geoshape
+ exit
+ sudo geoshape-config init 192.168.0.38
+ 
+ 
