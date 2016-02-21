@@ -1,0 +1,38 @@
+# Dependencies
+# fully installed CentOS 6.7 to VMware Workstation (without Geoshape)
+
+Steps to Move VMware Workstation Virtual Machine to ESXi Server
+(from http://www.sysprobs.com/move-vmware-workstation-virtual-machine-vmware-esxi-server)
+
+1) Uninstall VMware tools from guest OS. ( I’m not sure whether workstation and server VMware tools are same, but I think its better to remove now and install later in vSphere Client)
+
+2) Shutdown the virtual machine and remove floppy drives, USB and sound devices. If not removed now, converter will remove them with warning message later.
+
+3) Make sure network connectivity is OK and firewalls are opened between VMware workstation host and ESXi server.  In workstation go to File on menu and select Import or Export.
+
+4) Select Virtual Appliance in source type.
+
+5) Browse the virtual machine’s configuration file VMX
+
+6) It should detect the configurations of virtual machine properly. In next screen you can select and resize the disks which should be exported.
+
+7) Now time to select destination. Select ‘VMware Infrastructure Virtual Machine’ and click next.
+
+8.) Provide the IP address of VMware ESX or ESXi server with root user name and password. The same details provided to connect through vSphere client.
+
+9) It should login without any issues and ask for VM name. Give a name and go to next step.
+
+10) Select the resource pool to export if more than one available. Otherwise select local host and press Next.
+
+11) Choose datastore to move virtual disk. My ESXi server have single datastorage.
+
+12) Next is to select network cards. Network cards can be added during export by selecting number of NICs.
+
+3) Its highly recommended to select both options on next screen. Customize the identity of the virtual machine is very important in production environment due to unique machine ID, host name, licensing and domain networking.
+
+System restore checkpoints are useless after converting since any time we can’t restore to earlier checkpoints, because of the different environment later.
+
+14) After completing the customize steps, check the summary before start. Select the Power on the new VM after creation (Optional) option and click ‘Finish’ to start the procedure.
+
+15) Conversion and export should run smoothly and complete successfully. Warning messages can be seen on progress dialog box.
+
