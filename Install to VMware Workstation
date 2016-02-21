@@ -1,0 +1,28 @@
+# Dependencies
+  # VMware Workstation, Vagrant, Vagrant VMware Workstation Plugin, Git Hub for Windows Git Shell
+
+# from within Git Shell
+
+  git clone https://github.com/ROGUE-JCTD/geoshape-vagrant.git
+  
+# edit Vagrantfile, replace all with:
+  Vagrant.configure(2) do |config|
+  config.vm.box = "bento/centos-6.7"
+  config.vm.provision :shell, path: "scripts/bootstrap.sh"
+  config.vm.network :public_network, :bridge => 'en0: Ethernet', ip: "192.168.0.38", netmask: "255.255.255.0"
+  config.vm.provider "vmware_workstation" do |v|
+  v.vmx["memsize"] = "10240"
+  v.vmx["numvcpus"] = "2"
+ end
+end
+
+ # vagrant up requires administrative privileges
+ vagrant up --provider=vmware_workstation
+ vagrant ssh
+ yum install -y nano
+ sudo su -
+ cd /etc/yum.repos.d/
+ wget  http://yum.boundlessps.com/geoshape.repo
+ yum -y install geoshape
+ exit
+ sudo geoshape-config init 192.168.0.38
