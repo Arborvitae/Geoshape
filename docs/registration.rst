@@ -11,5 +11,5 @@ Sign in to Te Urewera Geoshape
 
       *Sign in screen*
 
-#. Enter your user name and password in the fields. Also, enter your email address for verification.
+#. Enter your user name and password in the fields.
 
