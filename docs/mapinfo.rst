@@ -14,7 +14,7 @@ The map detail page provides a view of the map, along with information about the
 
 Download Data Layers
 --------------------
-This will allow you to download the contents of the map that are stored in GeoNode.  It does not download data from other servers, however.
+This will allow you to download the contents of the map that are stored in Geoshape.  It does not download data from other servers, however.
 
 #. Click on the :guilabel:`Download Map` button.
 
@@ -97,7 +97,7 @@ The map permissions determine which users can view or edit a map.
 
 Remove a Map
 -------------
-You can remove a map completely from GeoNode.  This action removes the map for all users.
+You can remove a map completely from Geoshape.  This action removes the map for all users.
 
 #. Click on the :guilabel:`Edit Map` button
 

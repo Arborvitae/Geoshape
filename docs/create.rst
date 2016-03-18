@@ -46,7 +46,7 @@ Once you have created a map, or opened an existing map, you can add additional l
 
 **Add layers from another server**
 -----------------------------------
-You can add layers from other servers besides the GeoNode you're working with.  These servers include web mapping servers (WMS) and tile servers.
+You can add layers from other servers besides the Geoshape you're working with.  These servers include web mapping servers (WMS) and tile servers.
 
 #. Click on the Add Layers button by "Layers"
 
@@ -199,7 +199,7 @@ The legend displays the symbols used for vector layers in the map (not for image
 
 **Save a map**
 -------------------
-Saving a map preserves your preferences and makes it available for other GeoNode users.
+Saving a map preserves your preferences and makes it available for other Geoshape users.
 
 #. Click on the :guilabel:`Save Map` button in the toolbar.
 

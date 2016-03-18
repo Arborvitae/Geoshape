@@ -3,7 +3,7 @@
 Downloading Data from a Layer
 ==============================
 
-At the top of the page there are two buttons titled :guilabel:`Download Layer` and :guilabel:`Download Metadata`. These buttons provide access to the ability to extract geospatial data and metadata from within GeoNode. In this way, GeoNode allows for two way data and metadata access; one can import as well as export data.
+On the :guilabel:`Layer` page there are buttons titled :guilabel:`Download Layer` and :guilabel:`Download Metadata`. These buttons provide access to the ability to extract geospatial data and metadata from within GeoNode. In this way, Geoshape allows for two way data and metadata access; one can import as well as export data.
 
 **Data**
 ----------
@@ -16,7 +16,7 @@ At the top of the page there are two buttons titled :guilabel:`Download Layer` a
 
 #. Click the option for the desired format.
 
-#. GeoNode will process the request and bring up a Save As dialog. Save this file to your computer.
+#. Geoshape will process the request and depending on your browser configuration will open the file in your browser or download to your computer.
 
    .. todo:: show other format options
 
@@ -31,4 +31,4 @@ At the top of the page there are two buttons titled :guilabel:`Download Layer` a
 
 #. Click the option for the desired metadata format.
 
-#. GeoNode will process the request and display XML metadata.
+#. Geoshape will process the request and display XML metadata in your browser which you can save to your computer.
