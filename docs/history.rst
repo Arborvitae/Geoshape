@@ -2,26 +2,23 @@
 
 Working with History
 =====================
-GeoGit is a specialized database that was designed for distributed editing and supports collaborative editing of geospatial data.  It is designed for vector data (point, line, polygon, etc.).
-When a layer has been stored in GeoGit, it maintains the history of all of the changes made to the data along with who made the changes and when.
+Geogig is a specialized database that was designed for distributed editing and supports collaborative editing of geospatial data.  It is designed for vector data (point, line, polygon, etc.).
+When a layer has been stored in Geogig, it maintains the history of all of the changes made to the data along with who made the changes and when.
 Within the web map, you can view the history for a layer and for the features.
 
-History tab in GeoNode
+History tab in Geoshape
 -----------------------
-GeoGit layers in GeoNode will have a History tab in addition to the other tabs on the Layer detail page.  The history is a list of commits that have been made to the layer.  
+Geogig layers in Geoshape will have a Geogig tab in addition to the other tabs on the Layer detail page.  This shows a history of commits that have been made to the layer.  
 
-#. In the Layer detail page, click on the history tab to see the chronological list of commits. 
+#. In the Layer detail page, click on the Geogig tab to see the chronological list of commits. 
 
-   .. figure:: img/en_geonodehistorytab.png 
+   .. figure:: img/en_geoshapegeogigtab.png 
 
-      *Layer history tab in GeoNode* 
-
-#. In order to search through the commit history, type in the search box in the :guilabel:`History` tab.  You can search for any value in the commit history. 
-
+      *Layer Geogig tab in Geoshape* 
 
 View layer history
 -------------------
-You can view the history of a layer.
+You can also view the history of a layer stored in Geogig when the layer has been added to a map.
 
 #. Click on the name of the layer you want to view.  The menu will expand to show additional layer options.
 
@@ -52,7 +49,7 @@ You can view the history of a layer.
 View feature history
 ---------------------
 
-In addition to viewing the history of edits on a GeoGit layer, you can also view the history of a feature.  
+In addition to viewing the history of edits on a Geogig layer, you can also view the history of a feature.  
 
 #. Click on the feature on the map.  The feature details will appear. 
 
@@ -135,5 +132,5 @@ You can export a summary of all of the edits within a date range for a layer.
 
 #. Click on the :guilabel:`Export CSV` button
 
-#. When you are prompted to save the file, browse to the location where you want to save it to your hard drive and click :guilabel:`Ok`
+#. When you are prompted to save the file, browse to the location where you want to save it to your computer and click :guilabel:`Ok`
 

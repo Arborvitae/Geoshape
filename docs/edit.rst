@@ -3,7 +3,7 @@
 Edit Features
 =================
 Vector layers can be set up so that they're editable.  If you have permissions to edit a layer, the editing tools will be available in the map.
-If a layer is a GeoGit layer, then you can work with the edit history as well.
+If a layer is a Geogig layer, then you can work with the edit history as well.
 
 Add a simple point feature to a layer
 --------------------------------------
@@ -34,7 +34,7 @@ If a layer is editable, then the :guilabel:`Add Feature` button will be availabl
 
 Add a multipoint feature to a layer
 -------------------------------------
-Multipoint features can have more than one point per feature.  
+Multipoint features can have more than one point per feature. Each point can have a different location but all will have the same attributes and the feature will be treated as if it were a single point.
 
 #. Click the :guilabel:`Add Feature` button.  The :guilabel:`Drawing Geometry` dialog will appear at the top of the screen.
 
@@ -82,7 +82,7 @@ A simple polygon layer has a single polygon per feature.
 
 Add a multipoylgon feature to a layer
 --------------------------------------
-A multipolygon layer has one or more polygons per feature.  A couple of examples of multipoygons are the U.S. States of Michigan and Hawaii.
+A multipolygon layer has one or more polygons per feature.  A couple of examples of multipoygons are the islands that make up New Zealand and properties owned by someone on a single title but are not adjacent.
 
 #. Click on the :guilabel:`Add Feature` button.  The :guilabel:`Drawing Geometry` dialog will appear at the top of the screen.
 
@@ -101,6 +101,7 @@ A multipolygon layer has one or more polygons per feature.  A couple of examples
    .. figure:: img/en_acceptfeaturemultipolygon.png 
 
 #. Once you click on :guilabel:`Accept Feature` the :guilabel:`Edit Attributes` window will open.  Type in the fields or select values from the dropdowns to add attribute values.
+
    .. figure:: img/en_editattribmulti.png
 
 #. Click the :guilabel:`Save` button at the bottom of the form to save the feature to the layer.
@@ -131,13 +132,13 @@ A line layer consists of lines that represent features - such as roads, powerlin
 
 Add a multiline to a layer
 -----------------------------
-A multiline layer has one or more polygons per feature.  
+A multiline layer has one or more lines per feature.  
 
 #. Click on the :guilabel:`Add Feature` button.  The :guilabel:`Drawing Geometry` dialog will appear at the top of the screen.
 
    .. figure:: img/en_addnewmultiline.png 
 
-#. Click on the map to begin adding the linear feature.  Continue to click to add all of the vertices.  To finalize the line, double-click on the last vertice.  To add another polygon, click on the :guilabel:`Add Geometry` button.  Repeat the process to add polygons as needed.
+#. Click on the map to begin adding the linear feature.  Continue to click to add all of the vertices.  To finalize the line, double-click on the last vertice.  To add another line, click on the :guilabel:`Add Geometry` button.  Repeat the process to add polygons as needed.
 
    .. figure:: img/en_addtofeaturemultipolyline.png
 
@@ -160,7 +161,7 @@ You can edit the attributes for any features in an editable layer.
 
    .. figure:: img/en_featureinfobox.png
 
-#. Click on the :guilabel:`Edit Attibutes` button.  The :guilabel`Edit Attributes` window will appear.
+#. Click on the :guilabel:`Edit Attibutes` button.  The :guilabel:`Edit Attributes` window will appear.
 
    .. figure:: img/en_editattribpopup.png
 
@@ -200,16 +201,12 @@ With point geometries, you can also manually edit the coordinates.  This is usef
 
    .. figure:: img/en_editattribpopup.png
 
-#. Click on the coordinates field to edit the point coordinates.
-
-   .. figure:: img/en_editcoordinates.png
-
 #. Click the :guilabel:`Save` button at the bottom of the form to save the attribute updates.
 
 
 Edit polygon and line geometries
 ------------------------------------
-Any existing features in an editable layer can be modified.  If it is a GeoGit layer, the history of all of the edits will be maintain to ensure the provenance of the data.
+Any existing features in an editable layer can be modified.  If it is a Geogig layer, the history of all of the edits will be maintain to ensure the provenance of the data.
 
 #. Click on the feature you want to edit.  The feature info box will appear.
 
