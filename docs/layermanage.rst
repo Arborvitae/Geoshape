@@ -5,7 +5,7 @@ Editing Metadata and Managing Layers
 
 Every layer has its own page with information about it.  The layer page also provides a menu for options to edit information about the layer and manage the layer.
 
-      .. figure:: img/en_editlayersanandreas.png
+      .. figure:: img/en_editlayer.png
 
 Edit Metadata
 -------------
@@ -25,7 +25,7 @@ Edit Permissions
 Layer permissions are set at the time of import. Permissions can be adjusted as needed by those who have the proper rights to administer the layer.
 The Permissions window allows you to manage who can view and download the data, who can edit the data, and who can manage the data.
 
-#. Click on the Edit Layer button and select Edit Permissions
+#. Click on the Change Layer Permissions button
 
       .. figure:: img/en_layerpermissionsdialog.png
 
@@ -36,6 +36,8 @@ The Permissions window allows you to manage who can view and download the data, 
 Manage Styles
 -------------
 A layer can have a number of different styles associated with it.  There is a default style associated with the layer and there can be others that represent different views of the data.
+
+.. note:: Creating or changing styles is not recommended and can cause instability in the software. Contact the Geoshape administrator if you require a new style.
 
 #. Click on the Edit Layer button and select Manage Styles.
 
@@ -51,6 +53,8 @@ The Manage Styles page shows the available styles on the left and the styles ass
 
 Replace a Layer
 ------------------
+.. warning:: The replace layer function does not work correctly at this time. Contact the Geoshape administrator if you need to replace a layer.
+
 Selecting "Replace This Layer" allows you to import data in place of the existing layer.
 
 #. Click on the Edit Layer button and select Replace This Layer.
