@@ -1,22 +1,22 @@
 .. _search.find:
 
-Finding Content in GeoNode
+Finding Content in Geoshape
 =================================
 
 
-**GeoNode Search**
+**Te Urewera Geoshape Search**
 ------------------
 
-You will find the *Search* field at the top of every GeoNode page.  When you type in the search field, GeoNode will list the Layers, Maps, and Documents that match the text you've entered.  Click on the word in the list to go to that resource.
+You will find the *Search* field at the top of every Geoshape page.  When you type in the search field, Geoshape will list the Layers, Maps, and Documents that match the text you've entered.  Click on the word in the list to go to that resource.
 
 .. figure:: img/en_searchbar.png
 
-  *GeoNode Toolbar*
+  *Geoshape Toolbar*
 
 **Browsing Layers**
 -------------------
 
-The *Layers* page lets you browse data that has been uploaded to this GeoNode.  From the *Layers* page, you can see how many times a layer has been viewed and it's average user rating.  You can also *Download* the layer data, create a map, or go to a the layer detail page.  
+The *Layers* page lets you browse data that has been uploaded to Te Urewera Geoshape.  From the *Layers* page, you can see how many times a layer has been viewed and it's average user rating.  You can also *Download* the layer data, create a map, or go to a the layer detail page.  
 
 	.. figure:: img/en_layerspage.png
 
@@ -30,7 +30,7 @@ The view in the layers page can be subset by Raster or Vector
 **Browsing Maps**
 ------------------
 
-The *Maps* page lets you browse data that has been uploaded to this GeoNode.  From the *Maps* page, you can see how many times a map has been viewed and it's average user rating.  You can also *Download* the layers for the map, view the map, or go to a the map detail page for more information.  
+The *Maps* page lets you browse data that has been uploaded to Te Urewera Geoshape.  From the *Maps* page, you can see how many times a map has been viewed and it's average user rating.  You can also *Download* the layers for the map, view the map, or go to a the map detail page for more information.  
 
 	.. figure:: img/en_mapspage.png
 
