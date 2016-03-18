@@ -5,19 +5,19 @@ Managing your profile
 
 Your profile contains information about you.
 
-#. Click on your user name in the top right of the screen. A drop-down list will show. Click on :guilabel:`Profile` to enter the Profile settings page.
+#. Click on your user name in the top right of the screen. A popup list will show. Click on :guilabel:`Profile` to enter the Profile settings page.
 
    .. figure:: img/en_profilelink.png
 
       *Link to your profile*
 
-#. The next page shows your profile, which is currently empty.
+#. The next page shows your profile, which is mostly empty.
 
    .. figure:: img/en_profilepage.png
 
       *Profile page*
 
-#. Click the :guilabel:`Edit profile information` link.
+#. Click the :guilabel:`Edit profile` link.
 
    .. figure:: img/en_editprofilelink.png
 
@@ -35,20 +35,11 @@ Your profile contains information about you.
 
       *Link to save your profile updates*
 
-#. You will be returned to the main profile page. Now click :guilabel:`Account settings`.
+#. To return to the home page at any time just click on TE UREWERA in the top menu.
 
-   .. figure:: img/en_accountsettingslink.png
+   .. figure:: img/en_startpage.png
 
-      *Link to edit your account settings*
+      *Link to home page*
 
-#. On this page you can change your email address, time zone, and language. Your email should be populated already, but set the timezone to your current location.
-
-   .. todo:: Email address was on the profile page as well. What's the difference?
-
-   .. figure:: img/en_accountpage.png
-
-      *Editing your account*
-
-#. When finished, click :guilabel:`Save`.
 
 
