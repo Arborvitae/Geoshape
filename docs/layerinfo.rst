@@ -13,13 +13,13 @@ Every layer has its own page with information about it.  This page contains lots
    * Styles (associated with the layer)
    * Owner, point of contact, and author information
 
-   .. figure:: img/en_sanandreaspage.png
+   .. figure:: img/en_layerpage.png
 
 
 Layer Detail Tabs
 -----------------
 
-There are up to four tabs that describe a layer: :guilabel:`Info`, :guilabel:`Attributes`, :guilabel:`History`, and :guilabel:`Comments`. 
+There are up to five tabs that describe a layer: :guilabel:`Info`, :guilabel:`Attributes`, :guilabel:`Ratings`, :guilabel:`Comments` and :guilabel:`Geogig`. 
 
 #. The :guilabel:`Info` tab is the default tab, and presents basic information about the layer.  It also shows the overall average rating, and allows you to rate the layer.
 
@@ -33,7 +33,7 @@ There are up to four tabs that describe a layer: :guilabel:`Info`, :guilabel:`At
 
       *Attributes tab*
 
-#. The :guilabel:`History` tab is available when the layer is a GeoGit layer and it shows the history of activity on that layer.
+#. The :guilabel:`Geogig` tab is available when the layer is a Geogig layer and it shows the history of activity on that layer.
 
 	.. figure:: img/en_layerhistorytab.png
 
