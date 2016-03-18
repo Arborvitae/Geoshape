@@ -5,7 +5,7 @@ Layer information
 Every layer has its own page with information about it.  This page contains lots of options for managing this layer. The page displays information about the layer such as
    * Info
    * Attributes
-   * History
+   * Ratings
    * Comments
    * Legend
    * Maps using this layer
