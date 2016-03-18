@@ -2,7 +2,7 @@
 
 Uploading Documents
 =========================
-GeoNode lets you upload documents to associate to layers or maps. 
+Geoshape lets you upload documents to associate to layers or maps. 
 
 #. In the documents page, click on :guilabel:`Upload Documents`
 
@@ -10,7 +10,7 @@ GeoNode lets you upload documents to associate to layers or maps.
 
       *Upload Documents tab* 
 
-#. Type in the Title for the Document that will appear in GeoNode 
+#. Type in the Title for the Document that will appear in Geoshape 
 
 #. Browse to the file to upload or enter the URL for a web page or a document that's online. 
 
@@ -24,7 +24,7 @@ GeoNode lets you upload documents to associate to layers or maps.
 
 #. Click on the :guilabel:`Upload` button 
 
-#. The next page will allow you to enter metadata for the document.  It's good to enter the Abstract at a minimum. 
+#. The next page will allow you to enter metadata for the document.  You should always enter descriptive information in the Abstract and check a Category at a minimum, more information is better and will help others understand the value of the document. 
 
 #. When you have finished entering metadata click on the :guilabel:`Update` button at the bottom of the page. 
 
