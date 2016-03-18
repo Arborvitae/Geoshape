@@ -44,7 +44,7 @@ Geoshape allows you to upload layers.  The supported formats are shapefile, Geoj
 
 #. If no destination is selected, the files will be imported into the default spatial data store for Geoshape.  This will always be the destination for raster data.  If you have vector data that you want to be versioned, then check the box for 'Import to Geogig'.  The form will update to provide a dropdown menu for existing Geogig repositories.  To use an existing repository as the destination, select it in the dropdown. In order to import the data into a new Geogig repository: 1. type the name of the repository and 2. select that name in the dropdown so it appears in the field.
 
-   .. figure:: img/en_importGeoGig.png
+   .. figure:: img/en_importgeogig.png
 
 #. Click :guilabel:`Upload` to upload the data and create a layer. A dialog will display showing the progress of the upload.
 
