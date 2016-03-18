@@ -24,7 +24,7 @@ This will allow you to download the contents of the map that are stored in Geosh
 
 #. Select :guilabel:`Download Data Layers`
 
-#. Select the layer(s) that you want to download individually OR click on :guilabel`Start downloading this map`
+#. Select the layer(s) that you want to download individually OR click on :guilabel:`Start downloading this map`
 
    .. figure:: img/en_startdownloadmap.png
 
@@ -61,7 +61,7 @@ You can edit the information about the map.
 
 Set Map Thumbnail
 -----------------
-By default the thumbnail images for maps will only have the vector layers.  In order to include the background map you will need to use the Set Map Thumbnail button.
+By default the thumbnail images for maps will only have the vector layers.  In order to include the background map you will need to create a new thumbnail.
 
 #. Pan and zoom the inset map so that it's centered on the view you would like for the map thumbnail.
 
@@ -71,7 +71,7 @@ By default the thumbnail images for maps will only have the vector layers.  In o
 
       *Edit map menu*
 
-#. Click on :guilabel:`Set Map Thumbnail`.  This will set the map thumbnail with the base map and layers included.
+#. Click on :guilabel:`Set`.  This will set the map thumbnail with the base map and layers included.
 
    .. figure:: img/en_mapthumbnail.png
 
@@ -82,9 +82,9 @@ Edit Map Permissions
 --------------------
 The map permissions determine which users can view or edit a map.  
 
-#. Click on the :guilabel:`Edit Map` button
+#. Click on the :guilabel:`Change Permissions of this Map` button
 
-   .. figure:: img/en_editmap.png
+   .. figure:: img/en_changemappermissions.png
 
       *Edit map menu*
 
@@ -105,7 +105,7 @@ You can remove a map completely from Geoshape.  This action removes the map for 
 
       *Edit map menu*
 
-#. Click on the :guilabel:`Remove This Map` button
+#. Click on the :guilabel:`Remove` button
 
 #. Confirm the removal of the map by clicking :guilabel:`Yes, I am Sure`
 
