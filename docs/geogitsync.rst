@@ -1,8 +1,8 @@
 .. synch.geogitsync:
 
-Synchronize GeoGit Repositories
+Synchronize Geogig Repositories
 ================================
-A GeoGit repository can consist of one or more layers (called FeatureTypes).  You can set up GeoGit repositories to synchronize changes with each other.  
+A Geogig repository can consist of one or more layers (called FeatureTypes).  You can set up Geogig repositories to synchronize changes with each other.  
 This allows you to get updates to layers every few minutes.  
 
 You can set up repositories to sync in the map.  You can set up the sync to occur automatically or only on demand.  
@@ -12,7 +12,7 @@ You will also need to have added the layers you want to sync to the map.
 
 Configure a Remote Repository
 ------------------------------
-In order to synchronize you will need to configure the remote repository (or repositories) that GeoGit will sync. 
+In order to synchronize you will need to configure the remote repository (or repositories) that Geogig will sync. 
 
 #. Click on the :guilabel:`Remote Options` button next to the :guilabel:`Synchronization` tab in the main menu.
 
@@ -20,9 +20,9 @@ In order to synchronize you will need to configure the remote repository (or rep
 
       *Remote Options button to configure remotes*
 
-#. In the Remote Config window select the GeoGit repo that will be synchronized.  The list is populated from the repositories that correspond to the layers in the map. 
+#. In the Remote Config window select the Geogig repo that will be synchronized.  The list is populated from the repositories that correspond to the layers in the map. 
 
-Note that even though you might only be working with a single layer, the entire repository contents will be synched.  This is important to maintaining the history of the repository. 
+.. note:: Even though you might only be working with a single layer, the entire repository contents will be synched.  This is important to maintaining the history of the repository. 
 
    .. figure:: img/en_chooserepo.png 
 
@@ -36,21 +36,21 @@ Note that even though you might only be working with a single layer, the entire 
 
 #. In the :guilabel:`Remote Name` field, enter the name you want to call the remote.  Do not use spaces or special characters. 
 
-#. In the :guilabel:`URL` field, type in the URL to the remote.  The URL will have a path with this format: http://<url>/geoserver/geogit/<workspace>:<datastore 
+#. In the :guilabel:`URL` field, type in the URL to the remote.  The URL will have a path with this format: http://<url>/geoserver/geogig/<workspace>:<datastore 
 
-#. If you do not know the workspace and datastore names you can query the server by typing the following URL in a browser.  http://<servername>/geoserver/geogit 
+#. If you do not know the workspace and datastore names you can query the server by typing the following URL in a browser.  http://<servername>/geoserver/geogig 
 
    .. figure:: img/en_geogitrepolist.png 
 
-      *GeoGit Repository List from GeoServer* 
+      *Geogig Repository List from GeoServer* 
 
-#. You can also find the workspace and datastore information by searching through the GeoServer response to a WMS GetCapabilities request.  The URL will have this format: http://<servername>/geoserver/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities.  Search the document for "GEOGIT_ENTRY_POINT"
+#. You can also find the workspace and datastore information by searching through the GeoServer response to a WMS GetCapabilities request.  The URL will have this format: http://<servername>/geoserver/wms?SERVICE=WMS&VERSION=1.3.0&REQUEST=GetCapabilities.  Search the document for "GEOGIG_ENTRY_POINT"
 
-#. GeoServer also has information about the GeoGit repositories under :guilabel:`Stores` 
+#. GeoServer also has information about the Geogig repositories under :guilabel:`Stores` 
 
    .. figure:: img/en_geoserverstores.png
 
-      *GeoGit Data Stores in GeoServer*
+      *Geogig Data Stores in GeoServer*
 
 #. Enter the username and password for the remote server.  
 
@@ -93,7 +93,7 @@ You can set up syncs with different branches on the same remote.  The following 
 
 Manual Sync
 ------------
-Once a remote is set up then you can sync between the two GeoGit repositories. 
+Once a remote is set up then you can sync between the two Geogig repositories. 
 
 #. Click on the up and down arrows by the name of the remote you want to sync.  This initiates a one-time push/pull 
 

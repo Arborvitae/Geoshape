@@ -8,7 +8,7 @@ Merge can be used for branches in the same repository.  In order to merge two br
 Merge Two Branches
 -------------------
 The screenshot below shows two layers.  One is multipolygon_test and the other is multipolygon_test_branch1.  The first layer is on the master branch and the second layer is on branch1.
-The second layer could have any name but it's labeled this way to clearly distinguish which on is the branch.  
+The second layer could have any name but it's labeled this way to clearly distinguish which one is the branch.  
 Note that the upper polygon in multipolygon_test_branch1 has been updated so that it's larger.  We want to bring that edit into master (multipolygon_test).
 
    .. figure:: img/en_multipolygonedit.png

@@ -1,9 +1,9 @@
 .. _admin:
 
-GeoNode Administration
+Geoshape Administration
 =========================
 
-There are some basic administrative tasks that can be performed within GeoNode.
+There are some basic administrative tasks that can be performed within Geoshape.
 
 .. toctree::
    :maxdepth: 2
