@@ -14,7 +14,6 @@ Use Geoshape with:
 -----------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    qgis
-   google_earth
