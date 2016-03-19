@@ -49,7 +49,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Te Urewera Geoshape'
-copyright = u'2016, Maptec'
+copyright = u'2014, LMN Solutions (updated 2016, Maptec)'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
