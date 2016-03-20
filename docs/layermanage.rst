@@ -10,7 +10,7 @@ Every layer has its own page with information about it.  The layer page also pro
 Edit Metadata
 -------------
 Metdata is information about the layer.  It contains details such as the owner, title, purpose, restrictions, and more.
-This is where you can also edit the Abstract - which is the description that shows up for the layer in GeoNode.
+This is where you can also edit the Abstract - which is the description that shows up for the layer in Geoshape.
 
 #. Click on the Edit Layer button and select Edit Metadata.  This will take you to the metadata page.
 
@@ -63,7 +63,7 @@ Selecting "Replace This Layer" allows you to import data in place of the existin
 
 Remove a Layer
 --------------
-Removing a layer will remove it completely from GeoNode for all users.  
+Removing a layer will remove it completely from Geoshape for all users.  
 
 #. Click on the Edit Layer button and select Remove This Layer
 

@@ -3,7 +3,7 @@
 Downloading Data from a Layer
 ==============================
 
-On the :guilabel:`Layer` page there are buttons titled :guilabel:`Download Layer` and :guilabel:`Download Metadata`. These buttons provide access to the ability to extract geospatial data and metadata from within GeoNode. In this way, Geoshape allows for two way data and metadata access; one can import as well as export data.
+On the :guilabel:`Layer` page there are buttons titled :guilabel:`Download Layer` and :guilabel:`Download Metadata`. These buttons provide access to the ability to extract geospatial data and metadata from within Geoshape. In this way, Geoshape allows for two way data and metadata access; one can import as well as export data.
 
 **Data**
 ----------
